@@ -19,7 +19,7 @@ $(document).ready(function () {
         		success: function (data){
         			data.responseData.results.filter(function(x){
 						obj.push(x);
-						console.log(country+"yes");
+						
 	 				});
 	 				clearMainDiv();
 	 				print(obj);
